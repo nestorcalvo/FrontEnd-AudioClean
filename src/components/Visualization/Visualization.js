@@ -1,5 +1,6 @@
 /* eslint-disable array-callback-return */
 /* eslint-disable react/jsx-no-bind */
+/* eslint-disable react/destructuring-assignment */
 import React, { useState, useEffect } from 'react'
 import { Document, Page, pdfjs } from 'react-pdf'
 import { v4 as uuidv4 } from 'uuid'
