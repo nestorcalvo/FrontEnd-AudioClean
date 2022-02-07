@@ -1,0 +1,14 @@
+.vizWaveForm + .controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.controls button {
+  background-color: #4361ee;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  min-width: 100px;
+}

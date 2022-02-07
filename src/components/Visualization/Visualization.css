@@ -1,0 +1,41 @@
+.vizCardContainer {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.vizCardBodyContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.vizAudioCard {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+.vizCardContainer:last-child {
+  margin-bottom: 2rem;
+}
+.vizNewAudio {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.vizNewAudio button {
+  background-color: #4361ee;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  min-width: 100px;
+}
+
+.vizNewAudio button:last-child {
+  background-color: #52b69a;
+}
+.vizNewAudio button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
