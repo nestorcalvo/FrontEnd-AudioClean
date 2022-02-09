@@ -37,6 +37,6 @@ npm i
 The code is pointing to the localhost:8000 which is the backend, this can be changed in the [constant.js](https://github.com/nestorcalvo/FrontEnd-AudioClean/blob/master/src/constants.js) file, this has to be changed if the backend is running in another IP address.
 
 ```
-npm run
+npm start
 ```
 
